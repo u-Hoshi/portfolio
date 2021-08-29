@@ -6,6 +6,7 @@ import Eyecatch from "../components/sections/Eyecatch"
 import Footer from "../components/sections/Footer"
 import Header from "../components/sections/Header"
 import Skill from "../components/sections/Skill"
+import Value from "../components/sections/Value"
 
 const Home: NextPage = () => {
   return (
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
       <Eyecatch />
       <About />
       <Skill />
+      <Value />
       <Footer />
     </div>
   )
