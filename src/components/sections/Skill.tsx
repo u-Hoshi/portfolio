@@ -14,7 +14,7 @@ const Skill = () => {
             <div className='flex justify-evenly py-28 px-20'>
               <Image className='max-h-32' src={samplelogo} width={560} height={300} alt='logo' />
               <div className='pl-10 text-left'>
-                <SectionTitle title='スキル' subtitle='SKILLS' />
+                <SectionTitle title='スキル' subtitle='SKILL' />
                 <p className='max-w-lg tracking-wider leading-7 text-left text-text-black'>
                   テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                 </p>
