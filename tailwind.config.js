@@ -2,7 +2,7 @@ module.exports = {
   // 必要に応じてスタイルを反映するモード
   mode: "jit",
   // purge オプションを設定することで、ビルド生成時の未使用のスタイルを除外し、パフォーマンスの最適化を行う
-  purge: ["./src/**/**/*.{js,ts,jsx,tsx}", "./src/**/**/**//*.{js,ts,jsx,tsx}"],
+  purge: ["./src/**/**/*.{js,ts,jsx,tsx}", "./src/**/**/**//*.{js,ts,jsx,tsx},/src/img/**.png"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
