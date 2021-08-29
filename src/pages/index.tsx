@@ -4,6 +4,7 @@ import styles from "../../styles/Home.module.css"
 import About from "../components/sections/About"
 import Eyecatch from "../components/sections/Eyecatch"
 import Footer from "../components/sections/Footer"
+import Future from "../components/sections/Future"
 import Header from "../components/sections/Header"
 import Skill from "../components/sections/Skill"
 import Value from "../components/sections/Value"
@@ -22,6 +23,7 @@ const Home: NextPage = () => {
       <About />
       <Skill />
       <Value />
+      <Future />
       <Footer />
     </div>
   )
