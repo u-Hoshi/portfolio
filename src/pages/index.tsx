@@ -5,6 +5,7 @@ import About from "../components/sections/About"
 import Eyecatch from "../components/sections/Eyecatch"
 import Footer from "../components/sections/Footer"
 import Header from "../components/sections/Header"
+import Skill from "../components/sections/Skill"
 
 const Home: NextPage = () => {
   return (
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
       <Header />
       <Eyecatch />
       <About />
+      <Skill />
       <Footer />
     </div>
   )
