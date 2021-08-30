@@ -7,19 +7,19 @@ const Future = () => {
   return (
     <>
       {/* sp */}
-      <div className='md:hidden relative -top-64 z-0 text-center'>
+      <div className='md:hidden relative -top-64 z-0 -mb-64 text-center'>
         <div className={styles.futuresp}>
-          <div className='pt-72'>
+          <div className='pt-72 align-top'>
             <SectionTitle title='5年後にやりたいこと' subtitle='FUTURE' />
             <p className='px-3 pt-3 pb-8'>
               テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
             </p>
-            <Image className='w-full' width={480} height={251} src={logo} alt='logo' />
+            <Image className='relative -top-8' width={960} height={501} src={logo} alt='logo' />
           </div>
         </div>
       </div>
       {/* pc */}
-      <div className='hidden md:block relative -top-64 z-0 text-center'>
+      <div className='hidden md:block relative -top-64 z-0 -mb-64 text-center'>
         <div className={styles.futurepc}>
           <div className='hidden sm:flex justify-center sm:px-16 lg:px-32 pt-72'>
             <div className=' w-1/2'>
@@ -29,7 +29,14 @@ const Future = () => {
                 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
               </p>
             </div>
-            <Image className='' width={480} height={251} src={logo} alt='logo' />
+            <Image
+              className='
+            '
+              width={480}
+              height={251}
+              src={logo}
+              alt='logo'
+            />
           </div>
         </div>
       </div>
