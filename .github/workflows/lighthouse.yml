@@ -11,16 +11,16 @@ jobs:
         with:
           node-version: 14.x
       - name: npm install, build
+        run: 
+          npm install
+          npm run build
           env:
             API_KEY: ${{ secrets.X_API_KEY }}
             X_API_KEY: ${{ secrets.X_API_KEY }}
             serviceDomain: ${{ secrets.SERVICEDOMAIN }}
             apiKey: ${{ secrets.APIKEY }}
-          run: 
-            npm install
-            npm run build
 
       - name: run Lighthouse CI
-        run: |
+        run:
           npm install -g @lhci/cli@0.8.x
           lhci autorun
