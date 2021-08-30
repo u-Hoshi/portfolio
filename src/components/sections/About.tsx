@@ -10,8 +10,8 @@ const About = () => {
         <div className={styles.aboutpc}>
           <SectionTitle title='私について' subtitle='ABOUT' />
           <div className='flex sm:justify-between lg:justify-between sm:px-8 md:px-12 xl:px-56'>
-            <div className=' pt-7 w-3/12 lg:w-72'>
-              <Image src={samplelogo} className='w-2/6' alt='logo' />
+            <div className='pt-7 w-3/12 lg:w-72'>
+              <Image src={samplelogo} width={200} height={200} alt='logo' />
               <p className='text-xl font-bold text-text-green'>趣味</p>
               <p className='tracking-wider leading-7 text-left text-text-black'>
                 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
