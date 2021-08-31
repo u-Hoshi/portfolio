@@ -19,9 +19,9 @@ const Future = () => {
         </div>
       </div>
       {/* pc */}
-      <div className='hidden md:block relative -top-64 z-0 -mb-64 text-center'>
+      <div className=' hidden md:block relative -top-64 z-0 -mb-64 text-center'>
         <div className={styles.futurepc}>
-          <div className='hidden sm:flex justify-center sm:px-16 lg:px-32 pt-72'>
+          <div className='hidden sm:flex justify-center sm:px-16 lg:px-32 xl:px-0 pt-72 mx-auto max-w-screen-xl'>
             <div className=' w-1/2'>
               <SectionTitle title='5年後にやりたいこと' subtitle='FUTURE' />
               <p className='px-3 pt-3 pb-8'>
