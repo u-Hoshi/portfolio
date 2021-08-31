@@ -1,4 +1,5 @@
 import { client } from "../../../libs/client"
+import styles from "../../../styles/post.module.scss"
 
 type Article = {
   body: string
@@ -25,6 +26,7 @@ const BlogId = ({
       {/* <h1>{blog.title}</h1>
       <p>{blog.createdAt}</p> */}
       <div
+        className={styles.post}
         dangerouslySetInnerHTML={{
           __html: `${blog.body}`,
         }}

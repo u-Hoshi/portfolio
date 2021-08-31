@@ -12,8 +12,8 @@ module.exports = {
         "text-green": "#008c8d",
         "back-green": "#6bc2c3",
         "back-black": "#262c3a",
-        "progress-dark-green": "#c5eaea",
-        "progress-thin-green": "#2bb9ba",
+        "progress-thin-green": "#c5eaea",
+        "progress-dark-green": "#2bb9ba",
         "line-green": "#c5eaea",
       },
       height: {
@@ -24,5 +24,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/line-clamp")],
 }
