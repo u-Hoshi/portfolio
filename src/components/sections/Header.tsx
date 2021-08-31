@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
       <div className='lg:ml-[-40px]'>
-        <div className='sm:flex justify-between'>
+        <div className='sm:flex justify-between mx-auto max-w-screen-xl'>
           <div className='flex justify-center items-center lg:pl-[40px]'>
             <Image src={logo} width={150} height={75} alt='logo' />
           </div>
