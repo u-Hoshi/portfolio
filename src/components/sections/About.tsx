@@ -9,7 +9,7 @@ const About = () => {
       <div className='hidden lg:block'>
         <div className={styles.aboutpc}>
           <SectionTitle title='私について' subtitle='ABOUT' />
-          <div className='flex sm:justify-between lg:justify-between sm:px-8 md:px-12 xl:px-56 mx-auto max-w-screen-xl xl:px-o'>
+          <div className='flex sm:justify-between lg:justify-between sm:px-8 md:px-12 xl:px-56 mx-auto max-w-screen-xl'>
             <div className='pt-7 w-3/12 lg:w-72'>
               <Image src={samplelogo} width={200} height={200} alt='logo' />
               <p className='text-xl font-bold text-text-green'>趣味</p>
