@@ -20,13 +20,13 @@ const Footer = () => {
 
       <Image className='h-60' width={50} height={60} src={icon} alt='logo' />
       <div className='flex justify-center pt-8'>
-        <a className=' text-xl' href='https://github.com/u-Hoshi'>
+        <a className='p-2 text-2xl' href='https://github.com/u-Hoshi'>
           <FaGithub />
         </a>
-        <a className=' px-3 text-xl' href='https://twitter.com/CertainEngineer'>
+        <a className=' p-2 text-2xl' href='https://twitter.com/CertainEngineer'>
           <FaTwitter />
         </a>
-        <a className=' text-xl' href='https://qiita.com/ToaruEngineer'>
+        <a className='p-2 text-2xl' href='https://qiita.com/ToaruEngineer'>
           <SiQiita />
         </a>
       </div>
