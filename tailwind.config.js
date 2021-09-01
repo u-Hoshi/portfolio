@@ -19,6 +19,9 @@ module.exports = {
       height: {
         lg: "560px",
       },
+      minHeight: {
+        90: "90vh",
+      },
     },
   },
   variants: {
