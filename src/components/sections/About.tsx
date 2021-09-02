@@ -5,7 +5,7 @@ import SectionTitle from "../datadisplay/SectionTitle"
 
 const About = () => {
   return (
-    <div className='mx-auto text-center break-words'>
+    <section id='ABOUT' className='mx-auto text-center break-words'>
       <div className='hidden lg:block'>
         <div className={styles.aboutpc}>
           <SectionTitle title='私について' subtitle='ABOUT' />
@@ -61,7 +61,7 @@ const About = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 export default About
