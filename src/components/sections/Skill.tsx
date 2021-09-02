@@ -6,7 +6,7 @@ import SectionTitle from "../datadisplay/SectionTitle"
 
 const Skill = () => {
   return (
-    <div className='relative lg:-top-32'>
+    <section id='SKILLS' className='relative lg:-top-32'>
       {/* pc */}
       <div className='px-5 sm:px-0 text-center'>
         <div className='hidden lg:flex'>
@@ -50,7 +50,7 @@ const Skill = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

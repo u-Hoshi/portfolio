@@ -2,7 +2,7 @@ import { VFC } from "react"
 import styles from "../../../styles/eyecatch.module.scss"
 const Eyecatch: VFC = () => {
   return (
-    <div className='bg-back-green'>
+    <section className='bg-back-green'>
       <div className='flex flex-col sm:flex-row justify-between mx-auto max-w-screen-xl h-96 sm:h-96 lg:h-lg'>
         <div className='pt-5 sm:pl-10 lg:pl-20 sm:my-auto text-center sm:text-left text-white'>
           <h1 className='text-3xl lg:text-4xl 2xl:text-5xl'>メインタイトル</h1>
@@ -18,7 +18,7 @@ const Eyecatch: VFC = () => {
           <div className={styles.eyecatchpc}></div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

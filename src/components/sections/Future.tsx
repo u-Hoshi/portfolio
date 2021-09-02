@@ -5,7 +5,7 @@ import SectionTitle from "../datadisplay/SectionTitle"
 
 const Future = () => {
   return (
-    <>
+    <section id='FUTURE'>
       {/* sp */}
       <div className='md:hidden relative -top-64 z-0 -mb-64 text-center'>
         <div className={styles.futuresp}>
@@ -40,7 +40,7 @@ const Future = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   )
 }
 export default Future

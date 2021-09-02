@@ -5,7 +5,10 @@ import icon from "../../../public/images/logo_white.png"
 
 const Footer = () => {
   return (
-    <div className='relative pt-5 -mb-5 text-xs text-center text-white align-middle bg-back-black'>
+    <section
+      id='footer'
+      className='relative pt-5 -mb-5 text-xs text-center text-white align-middle bg-back-black'
+    >
       <div className='flex sm:hidden justify-around'>
         <p>お問い合わせ</p>
         <p>助成金について</p>
@@ -31,7 +34,7 @@ const Footer = () => {
         </a>
       </div>
       <p className='py-5'>© 2021 by u-Hoshi</p>
-    </div>
+    </section>
   )
 }
 

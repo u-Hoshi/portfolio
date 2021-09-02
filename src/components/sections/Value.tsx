@@ -4,7 +4,7 @@ import SectionTitle from "../datadisplay/SectionTitle"
 
 const Value = () => {
   return (
-    <>
+    <section id='VALUES'>
       <div className=' relative z-10 text-center'>
         <SectionTitle title='価値観' subtitle='VALUES' />
         <div className='lg:flex lg:justify-center lg:mx-32 sm:bg-white'>
@@ -36,7 +36,7 @@ const Value = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   )
 }
 
