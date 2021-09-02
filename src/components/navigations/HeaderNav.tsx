@@ -1,8 +1,13 @@
 import Link from "next/link"
 import { Link as Scroll } from "react-scroll"
 
-export const HeaderNav = (props: any) => {
-  const { nav } = props
+type HeaderNavType = {
+  nav: string
+  key: string
+}
+
+export const HeaderNav = (props: HeaderNavType) => {
+  const { nav, key } = props
   return (
     <nav key={nav} className='flex-1 sm:pl-6'>
       <Scroll
