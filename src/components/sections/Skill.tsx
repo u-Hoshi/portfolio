@@ -4,6 +4,13 @@ import styles from "../../../styles/skill.module.scss"
 import Progressbar from "../datadisplay/Prpgressbar"
 import SectionTitle from "../datadisplay/SectionTitle"
 
+const skills = [
+  { title: "TS", progress: "80%" },
+  { title: "JS", progress: "80%" },
+  { title: "React", progress: "80%" },
+  { title: "早起き", progress: "100%" },
+]
+
 const Skill = () => {
   return (
     <section id='SKILLS' className='relative lg:-top-32'>
@@ -19,10 +26,13 @@ const Skill = () => {
                   テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                 </p>
                 <div className='px-4 pt-5 pb-10 mt-8 w-11/12 max-w-xl text-left bg-white'>
-                  <Progressbar content='サンプル' progress='70%' />
-                  <Progressbar content='サンプル' progress='70%' />
-                  <Progressbar content='サンプル' progress='70%' />
-                  <Progressbar content='サンプル' progress='70%' />
+                  {skills.map((skill) => (
+                    <Progressbar
+                      key={skill.title}
+                      content={skill.title}
+                      progress={skill.progress}
+                    />
+                  ))}
                 </div>
               </div>
             </div>
@@ -41,11 +51,9 @@ const Skill = () => {
               テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
             </p>
             <div className='px-4 pt-5 pb-10 mx-5 mt-8 text-left bg-white'>
-              <Progressbar content='サンプル' progress='70%' />
-
-              <Progressbar content='サンプル' progress='70%' />
-              <Progressbar content='サンプル' progress='70%' />
-              <Progressbar content='サンプル' progress='70%' />
+              {skills.map((skill) => (
+                <Progressbar key={skill.title} content={skill.title} progress={skill.progress} />
+              ))}
             </div>
           </div>
         </div>
