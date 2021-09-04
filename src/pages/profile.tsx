@@ -1,6 +1,6 @@
 import Head from "next/head"
 import Image from "next/image"
-import userIcon from "../../public/images/ursericon.png"
+import userIcon from "../../public/images/usericon.png"
 import BlogHeader from "../components/sections/BlogHeader"
 import Footer from "../components/sections/Footer"
 
@@ -17,7 +17,7 @@ const Profile = () => {
         <div className=' mx-6 md:mx-auto max-w-screen-md leading-loose'>
           <h1 className='pb-10 text-5xl font-bold'>Profile</h1>
           <div className='pb-6 text-center'>
-            <Image src={userIcon} width={400} height={400} className='block' alt='logo' />
+            <Image src={userIcon} width={200} height={200} className='block' alt='logo' />
           </div>
           <div className='pb-8'>
             <h2 className='text-2xl font-bold'>基本情報</h2>
