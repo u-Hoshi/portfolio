@@ -17,7 +17,7 @@ const Profile = () => {
         <div className=' mx-6 md:mx-auto max-w-screen-md leading-loose'>
           <h1 className='pb-10 text-5xl font-bold'>Profile</h1>
           <div className='pb-6 text-center'>
-            <Image src={userIcon} width={200} height={200} className='block' alt='logo' />
+            <Image src={userIcon} width={400} height={400} className='block' alt='logo' />
           </div>
           <div className='pb-8'>
             <h2 className='text-2xl font-bold'>基本情報</h2>
@@ -31,26 +31,33 @@ const Profile = () => {
           <div className='pb-8'>
             <h2 className='text-2xl font-bold'>経歴</h2>
             <hr className='pb-6 border-back-green' />
-            <ul>
-              <div>
+
+            <div>
+              <ul>
                 <li>2021年 9月〜 現在</li>
                 <li> 都内の報道系のベンチャー企業でフロントエンドの実装を担当</li>
-              </div>
-              <div>
+              </ul>
+            </div>
+            <div>
+              <ul>
                 <li>2021年 9月</li>
                 <li>
                   技育展登壇 <a href='https://github.com/u-Hoshi/mokumokuApp'>もくスケ</a>
                 </li>
-              </div>
-              <div>
+              </ul>
+            </div>
+            <div>
+              <ul>
                 <li>2021年 5月〜7月</li>
                 <li>都内のEdTech企業でフロントエンドの実装及び要件定義</li>
-              </div>
-              <div>
+              </ul>
+            </div>
+            <div>
+              <ul>
                 <li>2019年 12月〜2021年 4月</li>
                 <li>都内のEdTech企業の営業、CS</li>
-              </div>
-            </ul>
+              </ul>
+            </div>
           </div>
           <div className='pb-8'>
             <h2 className='text-2xl font-bold'>趣味</h2>
