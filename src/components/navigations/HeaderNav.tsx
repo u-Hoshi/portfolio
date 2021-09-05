@@ -14,7 +14,7 @@ export const HeaderNav = (props: HeaderNavType) => {
         to={nav}
         smooth={true}
         duration={500}
-        className='text-[#008c8d] font-medium hover:opacity-50 hover:cursor-pointer'
+        className='font-medium text-text-green hover:opacity-50 hover:cursor-pointer'
       >
         {nav}
       </Scroll>

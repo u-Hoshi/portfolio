@@ -20,7 +20,7 @@ const Header = () => {
               ))}
               <nav className='flex-1 sm:pl-6'>
                 <Link href='/blog'>
-                  <a className='text-[#008c8d] font-medium hover:opacity-50 hover:cursor-pointer'>
+                  <a className='font-medium text-text-green hover:opacity-50 hover:cursor-pointer'>
                     BLOG
                   </a>
                 </Link>
