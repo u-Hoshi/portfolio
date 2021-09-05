@@ -31,26 +31,33 @@ const Profile = () => {
           <div className='pb-8'>
             <h2 className='text-2xl font-bold'>経歴</h2>
             <hr className='pb-6 border-back-green' />
-            <ul>
-              <div>
+
+            <div>
+              <ul>
                 <li>2021年 9月〜 現在</li>
                 <li> 都内の報道系のベンチャー企業でフロントエンドの実装を担当</li>
-              </div>
-              <div>
+              </ul>
+            </div>
+            <div>
+              <ul>
                 <li>2021年 9月</li>
                 <li>
                   技育展登壇 <a href='https://github.com/u-Hoshi/mokumokuApp'>もくスケ</a>
                 </li>
-              </div>
-              <div>
+              </ul>
+            </div>
+            <div>
+              <ul>
                 <li>2021年 5月〜7月</li>
                 <li>都内のEdTech企業でフロントエンドの実装及び要件定義</li>
-              </div>
-              <div>
+              </ul>
+            </div>
+            <div>
+              <ul>
                 <li>2019年 12月〜2021年 4月</li>
                 <li>都内のEdTech企業の営業、CS</li>
-              </div>
-            </ul>
+              </ul>
+            </div>
           </div>
           <div className='pb-8'>
             <h2 className='text-2xl font-bold'>趣味</h2>
