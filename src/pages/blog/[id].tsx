@@ -35,7 +35,7 @@ const BlogId = ({
       <BlogHeader />
       <div className='mx-auto max-w-screen-xl min-h-90'>
         <div className=' mx-6 md:mx-auto max-w-screen-md'>
-          <main className='text-center'>
+          <main className=' text-left'>
             <h1 className='text-3xl font-bold'>{blog.title}</h1>
             <p className='py-3 text-sm text-gray-400'>
               {new Date(blog.createdAt).toLocaleDateString()}

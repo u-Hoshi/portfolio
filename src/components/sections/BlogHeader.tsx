@@ -2,9 +2,10 @@ import Link from "next/link"
 import { HeaderTitle } from "../navigations/HeaderTiTle"
 
 const navs = [
-  { id: "blog", title: "BLOG" },
+  { id: "blog/page/1", title: "BLOG" },
   { id: "products", title: "PRODUCTS" },
   { id: "profile", title: "PROFILE" },
+  { id: "blog/6pajr1cyt2l", title: "ABOUT" },
 ]
 
 type navType = {
