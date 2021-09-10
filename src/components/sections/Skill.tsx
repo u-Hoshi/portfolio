@@ -6,8 +6,8 @@ import SectionTitle from "../datadisplay/SectionTitle"
 
 const skills = [
   { title: "TS", progress: "80%" },
-  { title: "JS", progress: "80%" },
   { title: "React", progress: "80%" },
+  { title: "営業", progress: "80%" },
   { title: "早起き", progress: "100%" },
 ]
 
