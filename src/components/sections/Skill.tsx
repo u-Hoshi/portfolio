@@ -23,7 +23,7 @@ const Skill = () => {
               <div className='pl-10 text-left'>
                 <SectionTitle title='スキル' subtitle='SKILL' />
                 <p className='max-w-lg tracking-wider leading-7 text-left text-text-black'>
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                  これまでフロントエンドエンジニアとして2社でインターンを経験しました。今後はバックエンド・インフラ分野の知識も深めたいと考え、Python(Django/FastAPI)を学習中です。
                 </p>
                 <div className='px-4 pt-5 pb-10 mt-8 w-11/12 max-w-xl text-left bg-white'>
                   {skills.map((skill) => (
