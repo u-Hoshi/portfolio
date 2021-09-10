@@ -7,20 +7,23 @@ import SectionTitle from "../datadisplay/SectionTitle"
 
 const abouts = [
   {
-    title: "趣味1",
-    content: "hogehogehogehogehogehogehogehogehogehogehogehogehogehogehoge",
+    title: "アニメ",
+    content:
+      "本格的に見始めたのは高校1年生の頃ですが、今の自分に大きな影響を与えてくれました。通算で70本以上見ました。作業中はこれまで見たアニメのOP/EDを聞きながら取り組んでいます笑",
+    logo: aboutlogo3,
+  },
+  {
+    title: "スポーツ全般",
+    content:
+      "これまで経験してきたスポーツは野球・サッカー・バスケ・バドミントン・自転車・スキー・スノボーとかなり多岐に渡ります。またこれらのスポーツを鑑賞することも好きで、時間があれば動画サイトで様々な選手のプレーを見ています。",
     logo: aboutlogo1,
   },
+
   {
-    title: "趣味2",
+    title: "あずき",
     content:
-      " テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト",
+      "小さい頃からあずきが大好きです。小学生の頃からあずきが好きで毎年１月から３月の間は週４日以上朝ごはんはおしるこを食べています。粒あん・漉しあん問わず大好きです。",
     logo: aboutlogo2,
-  },
-  {
-    title: "趣味3",
-    content: " 焼肉焼肉焼肉焼肉焼肉焼肉焼肉焼肉焼肉焼肉焼肉焼肉焼肉焼肉",
-    logo: aboutlogo3,
   },
 ]
 
