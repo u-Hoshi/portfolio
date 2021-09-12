@@ -22,7 +22,7 @@ const Future = () => {
         </div>
       </div>
       {/* pc */}
-      <div className=' hidden md:block relative -top-64 z-0 -mb-64 text-center'>
+      <div className=' hidden md:block relative -top-72 z-0 -mb-64 text-center'>
         <div className={styles.futurepc}>
           <div className='hidden sm:flex justify-center sm:px-16 lg:px-32 xl:px-0 pt-72 mx-auto max-w-screen-xl'>
             <div className=' w-1/2'>
