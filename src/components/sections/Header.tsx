@@ -1,6 +1,5 @@
 import Link from "next/link"
 import { HeaderNav } from "../navigations/HeaderNav"
-import { HeaderTitle } from "../navigations/HeaderTiTle"
 
 const navs = ["ABOUT", "SKILLS", "VALUES", "FUTURE"]
 
@@ -10,7 +9,7 @@ const Header = () => {
       <div className='lg:ml-[-40px]'>
         <div className='sm:flex justify-between'>
           <div className='flex justify-center items-center lg:pl-[40px]'>
-            <h1 className=' flex justify-center items-center py-5 lg:pl-[40px] text-2xl font-extrabold text-text-green'>
+            <h1 className=' flex justify-center items-center py-5 sm:pl-[40px] text-2xl font-extrabold text-text-green'>
               u-Hoshi
             </h1>
           </div>
@@ -19,7 +18,7 @@ const Header = () => {
               {navs.map((nav: string) => (
                 <HeaderNav nav={nav} key={nav} />
               ))}
-              <nav className='flex-1 sm:pl-6'>
+              <nav className='flex-auto sm:pl-6'>
                 <Link href='/blog'>
                   <a className='font-medium text-text-green hover:opacity-50 hover:cursor-pointer'>
                     BLOG

@@ -9,7 +9,7 @@ type HeaderNavType = {
 export const HeaderNav = (props: HeaderNavType) => {
   const { nav, key } = props
   return (
-    <nav key={nav} className='flex-1 sm:pl-6'>
+    <nav key={nav} className='flex-auto sm:pl-6'>
       <Scroll
         to={nav}
         smooth={true}
