@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { HeaderTitle } from "../navigations/HeaderTitle"
+import HeaderTitle from "../navigations/HeaderTitle"
 
 const navs = [
   { id: "blog/page/1", title: "BLOG" },
