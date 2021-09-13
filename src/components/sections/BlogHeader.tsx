@@ -1,5 +1,4 @@
 import Link from "next/link"
-// eslint-disable-next-line import/no-named-as-default
 import HeaderTitle from "../navigations/HeaderTitle"
 
 const navs = [
