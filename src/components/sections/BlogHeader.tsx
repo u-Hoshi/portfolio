@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { HeaderTitle } from "../navigations/HeaderTiTle"
+// import HeaderTitle from "../navigations/HeaderTitle"
 
 const navs = [
   { id: "blog/page/1", title: "BLOG" },
@@ -18,7 +18,9 @@ const BlogHeader = () => {
     <>
       <div className='mb-12 lg:ml-[-40px] text-white bg-back-black'>
         <div className='sm:flex justify-between sm:py-6 px-4 sm:px-8 mx-auto max-w-screen-xl'>
-          <HeaderTitle />
+          <h1 className=' flex justify-center items-center lg:pl-[40px] text-2xl font-extrabold'>
+            u-Hoshi
+          </h1>
           <div className='sm:flex justify-center items-center lg:pl-[40px]'>
             <div className='flex py-6 sm:py-0 pt-4 text-center sm:text-right text-text-green'>
               {navs.map((nav: navType) => (
