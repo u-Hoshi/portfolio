@@ -34,6 +34,7 @@ const Footer = () => {
         </a>
       </div>
       <p className='py-5'>© 2021 by u-Hoshi</p>
+      <p>fwydのデザインを使用</p>
     </section>
   )
 }
