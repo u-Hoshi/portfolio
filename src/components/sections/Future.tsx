@@ -9,7 +9,7 @@ const Future = () => {
       {/* sp */}
       <div className='md:hidden relative -top-64 z-0 -mb-64 text-center'>
         <div className={styles.futuresp}>
-          <div className='pt-72 align-top'>
+          <div className='pt-72 pb-16 align-top'>
             <SectionTitle title='5年後にやりたいこと' subtitle='FUTURE' />
             <p className='px-3 pt-3 pb-8'>
               私は5年後技術に加え、顧客の目線、ビジネスの観点からもプロダクトについて考え、プロダクト作りの現場の中心となるエンジニアになりたいです。
@@ -22,7 +22,7 @@ const Future = () => {
         </div>
       </div>
       {/* pc */}
-      <div className=' hidden md:block relative -top-72 z-0 -mb-64 text-center'>
+      <div className=' hidden md:block relative -top-52 z-0 -mb-64 text-center'>
         <div className={styles.futurepc}>
           <div className='hidden sm:flex justify-center sm:px-16 lg:px-32 xl:px-0 pt-72 mx-auto max-w-screen-xl'>
             <div className=' w-1/2'>
