@@ -22,7 +22,7 @@ const BlogHeader = () => {
             u-Hoshi
           </h1>
           <div className='sm:flex justify-center items-center lg:pl-[40px]'>
-            <div className='flex py-6 sm:py-0 pt-4 text-center sm:text-right text-text-green'>
+            <div className='flex justify-center py-6 sm:py-0 pt-4 text-center sm:text-right text-text-green'>
               {navs.map((nav: navType) => (
                 <nav key={nav.id} className='font-bold'>
                   <Link href={`/${nav.id}`}>
