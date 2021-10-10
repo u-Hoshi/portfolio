@@ -11,13 +11,11 @@ export const Pagination = ({ totalCount }: any) => {
       <ul className='inline-flex'>
         {range(1, Math.ceil(totalCount / PER_PAGE)).map((number, index) => (
           <li key={index}>
-            {/* <button className='w-10 h-10 text-progress-dark-green hover:bg-progress-thin-green rounded-full focus:ring transition-colors duration-150'> */}
             <Link href={`/blog/page/${number}`}>
               <a className='block w-10 h-10 leading-10 text-progress-dark-green hover:bg-progress-thin-green rounded-full transition-colors duration-150'>
                 {number}
               </a>
             </Link>
-            {/* </button> */}
           </li>
         ))}
       </ul>

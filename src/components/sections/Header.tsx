@@ -19,7 +19,7 @@ const Header = () => {
                 <HeaderNav nav={nav} key={nav} />
               ))}
               <nav className='flex-auto sm:pl-6'>
-                <Link href='/blog'>
+                <Link href='blog/page/1'>
                   <a className='font-medium text-text-green hover:opacity-50 hover:cursor-pointer'>
                     BLOG
                   </a>

@@ -39,7 +39,7 @@ export default function Home({
                 <Link href={`/blog/${blog.id}`}>
                   <a className='block mb-6 text-2xl font-bold'>{blog.title}</a>
                 </Link>
-                <div className='text-gray-600 line-clamp-3'>
+                <div className='text-gray-600 line-clamp-1'>
                   <div
                     dangerouslySetInnerHTML={{
                       __html: `${blog.body}`,

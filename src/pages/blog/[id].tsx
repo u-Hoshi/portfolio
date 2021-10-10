@@ -57,8 +57,6 @@ const BlogId = ({
 // 静的生成のためのパスを指定します
 export const getStaticPaths = async () => {
   const data: Contents = await client.get({ endpoint: "blog" })
-
-  console.log(data)
   const paths = data.contents.map((content) => `/blog/${content.id}`)
   return { paths, fallback: false }
 }
@@ -67,9 +65,6 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async (context: any) => {
   const id = context.params.id
   const data: Contents = await client.get({ endpoint: "blog", contentId: id })
-
-  console.log(data)
-
   return {
     props: {
       blog: data,
