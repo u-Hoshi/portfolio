@@ -3,11 +3,10 @@ import { Link as Scroll } from "react-scroll"
 
 type HeaderNavType = {
   nav: string
-  key: string
 }
 
 export const HeaderNav = (props: HeaderNavType) => {
-  const { nav, key } = props
+  const { nav } = props
   return (
     <nav key={nav} className='flex-auto sm:pl-6'>
       <Scroll

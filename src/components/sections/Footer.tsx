@@ -16,7 +16,7 @@ const Footer = () => {
         <a className='p-2 text-2xl' href='https://github.com/u-Hoshi'>
           <FaGithub />
         </a>
-        <a className=' p-2 text-2xl' href='https://twitter.com/CertainEngineer'>
+        <a className=' p-2 text-2xl' href='https://twitter.com/u_Hoshi7'>
           <FaTwitter />
         </a>
         <a className='p-2 text-2xl' href='https://qiita.com/ToaruEngineer'>
