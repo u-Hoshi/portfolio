@@ -1,6 +1,6 @@
 import { VFC } from "react"
 import styles from "../../../styles/eyecatch.module.scss"
-const Eyecatch: VFC = () => {
+const Eyecatch = () => {
   return (
     <section className='bg-back-green'>
       <div className='flex flex-col sm:flex-row justify-between mx-auto max-w-screen-xl h-96 sm:h-96 lg:h-lg'>
