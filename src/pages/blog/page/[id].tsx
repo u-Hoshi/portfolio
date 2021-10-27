@@ -44,13 +44,6 @@ export default function Home({
                 <Link href={`/blog/${blog.id}`}>
                   <a className='block mb-6 text-2xl font-bold'>{blog.title}</a>
                 </Link>
-                {/* <div className='text-gray-600 line-clamp-3'>
-                  <div
-                    dangerouslySetInnerHTML={{
-                      __html: `${blog.body}`,
-                    }}
-                  />
-                </div> */}
                 <div className='text-right'>
                   <button className='py-0.5 px-2 bg-progress-thin-green hover:bg-progress-dark-green rounded-lg'>
                     <Link href={`/blog/${blog.id}`}>redemore</Link>
